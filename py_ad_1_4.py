@@ -22,8 +22,8 @@ def thread_func(name, d):
     logging.info("Sub-Thread %s: starting", name)
 
     for i in d:
-        pass
-        # print(i)
+        #pass
+        print(i)
 
     logging.info("Sub-Thread %s: finishing", name)
 
